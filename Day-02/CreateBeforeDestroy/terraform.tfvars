@@ -1,0 +1,13 @@
+region            = "us-east-1"
+vpc_cidr_block    = "10.0.0.0/16"
+vpc_tag           = "varDay2-vpc"
+public_cidrblock  = "10.0.1.0/24"
+az_1              = "us-east-1a"
+public_subnet_tag = "varDay2-subnet-1"
+igw_tag           = "varDay2-Igw"
+rt_cidr_block     = "0.0.0.0/0"
+route_table_tag   = "varDay2-RouteTable"
+ec2_az            = "us-east-1a"
+ec2_type          = "t2.micro"
+key_name          = "aws"
+  
